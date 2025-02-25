@@ -14,9 +14,9 @@ This project focuses on predicting machine failures in water pump systems using 
 
 ## **Predictive Maintenace IoT System**
 
-The IoT-based predictive maintenance system for water pump systems as shown in Diagram 1 integrates multiple sensors to monitor key operational parameters. 
+The IoT-based predictive maintenance system for water pump systems integrates multiple sensors to monitor key operational parameters. 
 
-These sensors as shown in Table 1 provide real-time data to machine learning models, enabling early detection of failures and reducing unexpected downtime. The dataset used for this project, Pump Sensor Data, is publicly available on [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data/data) This dataset consists of IoT sensor readings collected from water pump systems, helping identify anomalies and predict potential failures before they cause operational disruptions.
+These sensors provide real-time data to machine learning models, enabling early detection of failures and reducing unexpected downtime. The dataset used for this project, Pump Sensor Data, is publicly available on [Kaggle](https://www.kaggle.com/datasets/nphantawee/pump-sensor-data/data) This dataset consists of IoT sensor readings collected from water pump systems, helping identify anomalies and predict potential failures before they cause operational disruptions.
 
 •	Vibration Sensors are mounted on the motor casing and pump casing. The motor casing vibration sensor has a mean value of 2.37g, a measurement range of 0 to 2.55g, and a standard deviation of 0.4g. The pump casing vibration sensor has a mean of 2.3g, ranging from 0 to 4.87g, with a standard deviation of 0.77g. Regular calibration is necessary to maintain accuracy and prevent data drift. Regular calibration is necessary to maintain accuracy and prevent data drift.
 •	Temperature Sensors are installed on the pump lubrication oil supply and motor components. The pump lube oil supply temperature sensor operates within a range of 19.27°C to 547.92°C, with a mean of 36.61°C and a standard deviation of 15.61°C. These sensors are heat-resistant and shielded to prevent external thermal interference.
